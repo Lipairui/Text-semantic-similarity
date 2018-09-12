@@ -1,5 +1,5 @@
 # text-semantic-similarity
-Calculate semantic similarity of two texts.  
+Calculate semantic similarity of two texts in English or Chinese.  
 Models include word2vec, tfidf, lda, lsi.
 ## Dependencies
 Python 3.6.5   
