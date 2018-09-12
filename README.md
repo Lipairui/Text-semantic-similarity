@@ -11,7 +11,8 @@ I choose four models to calculate semantic vectors of texts, then utilize cosine
 Command: excute.py text1_path text2_path res_path -l en/cn    
 You can run excute.py with -h to get information about arguments details.
 ## How to change model setting?
-I implement four models to calculate unsupervised semantic similarity including word2vec, tfidf, lda, lsi.   
+I implement four models to calculate unsupervised semantic similarity including word2vec, tfidf, lda, lsi. 
+By changing setting in config.py:
 You can change the output vector dimension of each model except tfidf (dimension depends on corpus size).    
 You can combine more than one models to generate semantic vectors of texts.
 ## Contact
