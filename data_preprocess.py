@@ -28,7 +28,7 @@ def preprocess_data_en(data):
     data = [nltk.regexp_tokenize(sentence, pattern) for sentence in data]
 
     # move stopwords & lower words
-    stopworddic = set([w.strip() for w in codecs.open('../data/english_stopwords.txt', 'r',encoding='utf-8').readlines()])
+    stopworddic = set([w.strip() for w in codecs.open('english_stopwords.txt', 'r',encoding='utf-8').readlines()])
     clean_data = []
     for sentence in data:
         clean_data += [[word.lower() for word in sentence if word.lower() not in stopworddic]]
@@ -58,7 +58,7 @@ def preprocess_data_cn(data):
     data = [re.sub(u"[^\u4E00-\u9FFF]", "", sentence) for sentence in data] # delete all non-chinese characters
     
     # tokenize and move stopwords 
-    stopworddic = [w.strip() for w in codecs.open('../data/chinese_stopwords.txt', 'r',encoding='utf-8').readlines()]
+    stopworddic = [w.strip() for w in codecs.open('chinese_stopwords.txt', 'r',encoding='utf-8').readlines()]
     result = []
     pos = ['zg','e','y','o','ul','ud','uj','z'] # 定义需要过滤的词性
     # zg:哦 e:嗯 y:啦 o:哈哈 ul:了 r:他，你，哪儿，哪里 ug:过 z:咋啦
