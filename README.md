@@ -15,5 +15,5 @@ I implement four models to calculate unsupervised semantic similarity including 
 You can change the output vector dimension of each model except tfidf (dimension depends on corpus size).    
 You can combine more than one models to generate semantic vectors of texts.
 ## Contact
-As a beginner interested in NLP/Data Mining, I would be delighted for your encouragement!
+As a beginner interested in NLP/Data Mining, I would be delighted for your encouragement!    
 Feel free to mail me at 953383269@qq.com with any comments/problems/questions/suggestions.
