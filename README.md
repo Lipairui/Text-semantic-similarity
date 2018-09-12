@@ -11,8 +11,8 @@ Since semantic similarity labeling is difficult and time consuming, unsupervised
 I choose four models to calculate semantic vectors of texts, then utilize cosine distance to calculate similarity.
 
 ## How to use?
-Prepare your data: pairs of sentence/paragraphs in two txt files
-Command: excute.py text1_path text2_path res_path -l en/cn    
+Prepare your data: pairs of sentence/paragraphs in two txt files    
+Command: excute.py text1_path text2_path res_path -l en/cn       
 You can run excute.py with -h to get information about arguments details.   
 
 ## How to change model setting?
