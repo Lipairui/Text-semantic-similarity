@@ -14,16 +14,7 @@ I choose four models to calculate semantic vectors of texts, then utilize cosine
 Prepare your data: pairs of sentence/paragraphs in two txt files
 Command: excute.py text1_path text2_path res_path -l en/cn    
 You can run excute.py with -h to get information about arguments details.   
-usage: excute.py [-h] [-l {en,cn}] text1_path text2_path res_path   
-positional arguments:   
-text1_path            the path of text1(.txt format; utf-8 encoding required; one sentence/paragraph per line)    
-text2_path            the path of text2(.txt format; utf-8 encoding required; one sentence/paragraph per line)    
-res_path              the path of result(.csv format)    
-optional arguments:    
--h, --help            show this help message and exit   
--l {en,cn}, --language {en,cn}   
-                      language of the texts: en for English; cn for Chinese
-                        
+
 ## How to change model setting?
 I implement four models to calculate unsupervised semantic similarity including word2vec, tfidf, lda, lsi.    
 By changing setting in config.py:   
