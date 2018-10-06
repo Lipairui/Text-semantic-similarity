@@ -1,4 +1,4 @@
-# text-semantic-similarity
+# Text semantic similarity
 Calculate semantic similarity of each pair of sentences/paragraphs in two texts (English or Chinese).  
 Models include word2vec, tfidf, lda, lsi.
 
